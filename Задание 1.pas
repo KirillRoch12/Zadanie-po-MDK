@@ -1,8 +1,9 @@
 ﻿Var
-  a,b,c:real;
+  a,b,c,d:real;
  begin  
   writeln('Введите 2 числа');
   readln (a,b);
   c:=a+b;
-  writeln('Сумма чисел = ',c);
+  d:=a*b;
+  writeln('Сумма чисел = ',c,' произведение чисел = ',d);
  end.
